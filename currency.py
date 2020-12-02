@@ -14,7 +14,7 @@ root.title("GUI : Currency Conversion")
 Tops = Frame(root,bg = '#663300',pady = 2, width =1850, height = 100, relief = "ridge")
 Tops.grid(row=0,column=0)
 
-headlabel = tk.Label(Tops,font=('lato black', 19,'bold'), text = '      Pypower Project   :    Currency Converter  ', bg= '#663300',fg='white') 
+headlabel = tk.Label(Tops,font=('lato black', 19,'bold'), text = '     Project   :    Currency Converter  ', bg= '#663300',fg='white') 
 headlabel.grid(row=1, column=0,sticky=W)
  
 variable1 = tk.StringVar(root) 
